@@ -1,0 +1,15 @@
+GET http://localhost:3001/
+Accept: application/json
+
+###
+
+GET http://localhost:3001/getCount
+Accept: application/json
+
+###
+
+POST http://localhost:3001/incrementCount
+Content-Type: application/json
+Accept: application/json
+
+{}
